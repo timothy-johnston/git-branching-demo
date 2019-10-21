@@ -17,3 +17,12 @@
     margin: 10px;
 }
 
+#result-container {
+/*     display: flex !important; */
+/*     justify-content: flex-start !important; */
+}
+
+#result-container h3 {
+    text-align: center;
+}
+
