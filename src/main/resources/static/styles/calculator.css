@@ -1,0 +1,19 @@
+#section-home {
+    height: 100vh;
+}
+
+#calculator-container, #input-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input-container div {
+	width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+}
+

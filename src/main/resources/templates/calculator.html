@@ -10,33 +10,31 @@
     <title>Git Branching Demo - Calculator</title>
 
     <!-- <link rel="stylesheet" th:href="@{webjars/bootstrap/4.2.1/css/bootstrap.min.css}"/> -->
-    <link rel="stylesheet" th:href="@{/styles/index.css}"/>
+    <link rel="stylesheet" th:href="@{/styles/calculator.css}"/>
 
 </head>
 
     <body>
-
-            <section id="section-home" class="container section">
-                <div id="calculator-container" class="container">
-                    <div id="addition-conatiner">
-                        <h3>Do Some Math</h3>
-                        <label for="add-1">First Number</label>
-                        <input id="add-1" type="number">
-                        <label for="add-2">Second Number</label>
+        <section id="section-home" class="container section">
+            <div id="calculator-container" class="container">
+                <div id="header-conatiner">
+                    <h1>Do Some Math</h1>
+                </div>
+                <div id="input-container">
+                    <div>
+                        <label for="add-1">1st Number</label>
+                        <input id="add-1" type="number">  
+                    </div>
+                    <div>
+                        <label for="add-2">2nd Number</label>
                         <input id="add-2" type="number">
-                        <button type="button" class="btn btn-success">Add</button>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-success">Add</button>   
                     </div>
                 </div>
-
-
-
-
-
-
-
-
-
-            </section>
+            </div>
+        </section>
 
 
 
