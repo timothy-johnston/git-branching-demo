@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.tj</groupId>
 	<artifactId>git-branching-demo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>git-branching-demo</name>
 	<description>Simple Java + Spring Boot web app to demo Git, branching, and hooks. </description>
 
