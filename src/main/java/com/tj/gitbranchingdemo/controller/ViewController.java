@@ -12,5 +12,10 @@ public class ViewController {
 		return "index";
 	}
 	
+	@GetMapping({"calculator"})
+	public String calculator() {
+		return "calculator";
+	}
+	
 
 }
