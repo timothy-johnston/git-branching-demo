@@ -17,6 +17,10 @@
     margin: 10px;
 }
 
+.btn {
+	margin: 5px 0px;
+}
+
 #result-container {
 /*     display: flex !important; */
 /*     justify-content: flex-start !important; */
