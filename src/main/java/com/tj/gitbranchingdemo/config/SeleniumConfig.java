@@ -6,6 +6,7 @@ import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.springframework.core.io.ClassPathResource;
 
 public class SeleniumConfig {
 	
@@ -19,7 +20,8 @@ public class SeleniumConfig {
 	}
 	
 	static {
-		System.setProperty("webdriver.gecko.driver", "C:\\projects\\env\\GeckoDriver\\geckodriver-v0.26.0-win64\\geckodriver.exe");
+//		System.setProperty("webdriver.gecko.driver", "C:\\projects\\env\\GeckoDriver\\geckodriver-v0.26.0-win64\\geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", new ClassPathResource("\\src\\main\\resources\\geckodriver.exe").getPath());
 	}
 
 	public WebDriver getDriver() {
