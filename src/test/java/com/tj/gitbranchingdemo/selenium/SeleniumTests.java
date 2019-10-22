@@ -1,6 +1,6 @@
 package com.tj.gitbranchingdemo.selenium;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -21,7 +21,7 @@ public class SeleniumTests {
 		String expectedHeader = "Hello World";
 		String actualHeader = driver.findElement(By.id("header")).getText();
 		
-		assertTrue("Test failed: Incorrect header.", expectedHeader.equals(actualHeader));
+		assertEquals("Test failed: Incorrect header.", expectedHeader, actualHeader);
 		
 	}
 
