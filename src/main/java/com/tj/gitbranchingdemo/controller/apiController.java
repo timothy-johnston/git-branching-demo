@@ -17,4 +17,19 @@ public class apiController {
 		
 	}
 	
+	@GetMapping("/api/multiply")
+	public int performMultiplication(@RequestParam int num1, @RequestParam int num2) {
+		
+		//Calculate sum
+		int product = 0;
+		
+		//Perform multiplication by calling the addition service mulitple times
+		for (int i = 0; i < num2; i++) {
+			product = product + performAddition(num1, 0);
+		}
+		
+		return product;
+		
+	}
+	
 }
