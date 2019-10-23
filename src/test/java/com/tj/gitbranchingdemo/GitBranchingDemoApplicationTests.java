@@ -1,13 +1,17 @@
 package com.tj.gitbranchingdemo;
 
-import org.junit.jupiter.api.Test;
+//import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GitBranchingDemoApplicationTests {
-
+public class GitBranchingDemoApplicationTests {
+	
 	@Test
-	void contextLoads() {
+	public void contextLoads() {
+		
+		System.out.println("---------------------------------TEST FIRED--------------------------------");
+		
 	}
 
 }

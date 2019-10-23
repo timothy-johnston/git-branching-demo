@@ -4,16 +4,26 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Before;
 import org.junit.Test;
+//import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.springframework.boot.test.context.SpringBootTest;
 
 import com.tj.gitbranchingdemo.config.SeleniumConfig;
 
+@SpringBootTest
 public class SeleniumTests {
 	
 	SeleniumConfig config;
 	WebDriver driver;
+	
+	@Test
+	public void contextLoads() {
+		
+		System.out.println("---------------------------------Selenium test FIRED!!!--------------------------------");
+		
+	}
 	
 	@Before
 	public void setUpSelenium() {
@@ -68,3 +78,4 @@ public class SeleniumTests {
 	}
 
 }
+
