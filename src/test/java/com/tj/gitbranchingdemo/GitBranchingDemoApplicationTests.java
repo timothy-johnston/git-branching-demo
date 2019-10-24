@@ -7,11 +7,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 public class GitBranchingDemoApplicationTests {
 	
-	@Test
-	public void contextLoads() {
-		
-		System.out.println("---------------------------------TEST FIRED--------------------------------");
-		
-	}
+//	@Test
+//	public void contextLoads() {
+//		
+//		System.out.println("---------------------------------TEST FIRED--------------------------------");
+//		
+//	}
 
 }
